@@ -3,7 +3,20 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  firebase: {
+    // Your web app's Firebase configuration
+    apiKey: "AIzaSyBIeMvGFkAKLLNYdRvE7TkTZDBR6KpVXNk",
+    authDomain: "scl009-red-social-frameworks.firebaseapp.com",
+    databaseURL: "https://scl009-red-social-frameworks.firebaseio.com",
+    projectId: "scl009-red-social-frameworks",
+    storageBucket: "scl009-red-social-frameworks.appspot.com",
+    messagingSenderId: "599542815640",
+    appId: "1:599542815640:web:0d1fceae679d31be"
+  // Initialize Firebase
+  // firebase.initializeApp(firebaseConfig);
+  }
 };
 
 /*
